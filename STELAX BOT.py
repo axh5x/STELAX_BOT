@@ -8,6 +8,10 @@ from telegram.ext import (
 )
 import os
 
+from flask import Flask
+
+app = Flask(__name__)
+
 # إعدادات
 TOKEN = "8091248340:AAHsjE9yFtUY8NwmaQ0i7vYUXak_DLoUDts"
 ADMIN_ID = 5014554262  # ضع معرفك

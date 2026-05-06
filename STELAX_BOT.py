@@ -11,6 +11,7 @@ import os
 from flask import Flask
 
 app = Flask(__name__)
+@app.route("/webhook", methods=["POST"])
 
 # إعدادات
 TOKEN = "8091248340:AAHsjE9yFtUY8NwmaQ0i7vYUXak_DLoUDts"

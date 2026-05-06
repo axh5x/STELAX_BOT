@@ -1,3 +1,4 @@
+https://api.telegram.org/bot%3C8091248340:AAHsjE9yFtUY8NwmaQ0i7vYUXak_DLoUDts%3E/setWebhook?url=https://stelax-bot-n2rp.onrender.com%2Fwebhook%2F%3C8091248340:AAHsjE9yFtUY8NwmaQ0i7vYUXak_DLoUDts%3E
 import logging, random, datetime
 from hijri_converter import convert
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
